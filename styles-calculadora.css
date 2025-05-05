@@ -13,26 +13,6 @@ body {
   height: 100vh;
 }
 
-.card {
-  background-color: white;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 400px;
-}
-
-.card h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.card p {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #666;
-}
-
 .input-group {
   margin-bottom: 20px;
 }
@@ -73,6 +53,41 @@ button:hover {
   color: #333;
 }
 
+  .navbar {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: gray;
+  }
 body {
   padding-top: 80px;
 }
