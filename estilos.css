@@ -24,8 +24,8 @@ body {
 }
 
 .caja {
-  width: 22rem;
-  height: 17rem;
+  width: 50vh;
+  height: 18vw;
   background-color: #841f8d;
   color: white;
   display: flex;
