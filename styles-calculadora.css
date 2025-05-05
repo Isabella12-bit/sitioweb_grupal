@@ -13,27 +13,7 @@ body {
   height: 100vh;
 }
 
-.card {
-  background-color: white;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 400px;
-}
-
-.card h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.card p {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #666;
-}
-
-.input-group {
+/* .input-group {
   margin-bottom: 20px;
 }
 
@@ -44,12 +24,12 @@ body {
   color: #444;
 }
 
-.input-group input {
+/* .input-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-}
+} */ */
 
 button {
   width: 100%;
@@ -59,7 +39,7 @@ button {
   padding: 12px;
   font-size: 16px;
   border-radius: 6px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 button:hover {
@@ -73,8 +53,6 @@ button:hover {
   color: #333;
 }
 
-
-/* aca */
 .navbar {
   background-color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
